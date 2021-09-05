@@ -1,89 +1,578 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Welcome to Firebase Hosting</title>
 
-    <!-- update the version number as needed -->
-    <script defer src="/__/firebase/9.0.1/firebase-app-compat.js"></script>
-    <!-- include only the Firebase features as you need -->
-    <script defer src="/__/firebase/9.0.1/firebase-auth-compat.js"></script>
-    <script defer src="/__/firebase/9.0.1/firebase-database-compat.js"></script>
-    <script defer src="/__/firebase/9.0.1/firebase-firestore-compat.js"></script>
-    <script defer src="/__/firebase/9.0.1/firebase-functions-compat.js"></script>
-    <script defer src="/__/firebase/9.0.1/firebase-messaging-compat.js"></script>
-    <script defer src="/__/firebase/9.0.1/firebase-storage-compat.js"></script>
-    <script defer src="/__/firebase/9.0.1/firebase-analytics-compat.js"></script>
-    <script defer src="/__/firebase/9.0.1/firebase-remote-config-compat.js"></script>
-    <script defer src="/__/firebase/9.0.1/firebase-performance-compat.js"></script>
-    <!-- 
-      initialize the SDK after all desired features are loaded, set useEmulator to false
-      to avoid connecting the SDK to running emulators.
-    -->
-    <script defer src="/__/firebase/init.js?useEmulator=true"></script>
+<head>
+	<title>Justified Code</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
 
-    <style media="screen">
-      body { background: #ECEFF1; color: rgba(0,0,0,0.87); font-family: Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 0; }
-      #message { background: white; max-width: 360px; margin: 100px auto 16px; padding: 32px 24px; border-radius: 3px; }
-      #message h2 { color: #ffa100; font-weight: bold; font-size: 16px; margin: 0 0 8px; }
-      #message h1 { font-size: 22px; font-weight: 300; color: rgba(0,0,0,0.6); margin: 0 0 16px;}
-      #message p { line-height: 140%; margin: 16px 0 24px; font-size: 14px; }
-      #message a { display: block; text-align: center; background: #039be5; text-transform: uppercase; text-decoration: none; color: white; padding: 16px; border-radius: 4px; }
-      #message, #message a { box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); }
-      #load { color: rgba(0,0,0,0.4); text-align: center; font-size: 13px; }
-      @media (max-width: 600px) {
-        body, #message { margin-top: 0; background: white; box-shadow: none; }
-        body { border-top: 16px solid #ffa100; }
-      }
-    </style>
-  </head>
-  <body>
-    <div id="message">
-      <h2>Welcome</h2>
-      <h1>Firebase Hosting Setup Complete</h1>
-      <p>You're seeing this because you've successfully setup Firebase Hosting. Now it's time to go build something extraordinary!</p>
-      <a target="_blank" href="https://firebase.google.com/docs/hosting/">Open Hosting Documentation</a>
-    </div>
-    <p id="load">Firebase SDK Loading&hellip;</p>
+	<link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@600&display=swap" rel="stylesheet">
 
-    <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        const loadEl = document.querySelector('#load');
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
-        // // The Firebase SDK is initialized and available here!
-        //
-        // firebase.auth().onAuthStateChanged(user => { });
-        // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
-        // firebase.firestore().doc('/foo/bar').get().then(() => { });
-        // firebase.functions().httpsCallable('yourFunction')().then(() => { });
-        // firebase.messaging().requestPermission().then(() => { });
-        // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
-        // firebase.analytics(); // call to activate
-        // firebase.analytics().logEvent('tutorial_completed');
-        // firebase.performance(); // call to activate
-        //
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+	<script src="assets/js/jquery.min.js>"></script>
+	<script src="assets/js/bootstrap.min.js>"></script>
+	<script src="https://kit.fontawesome.com/059627b691.js" crossorigin="anonymous"></script>
 
-        try {
-          let app = firebase.app();
-          let features = [
-            'auth', 
-            'database', 
-            'firestore',
-            'functions',
-            'messaging', 
-            'storage', 
-            'analytics', 
-            'remoteConfig',
-            'performance',
-          ].filter(feature => typeof app[feature] === 'function');
-          loadEl.textContent = `Firebase SDK loaded with ${features.join(', ')}`;
-        } catch (e) {
-          console.error(e);
-          loadEl.textContent = 'Error loading the Firebase SDK, check the console.';
-        }
-      });
-    </script>
-  </body>
+	<link rel="stylesheet" href="../assets/css/style.css">
+	<link rel="stylesheet" href="../assets/css/style2.css">
+</head>
+<style>
+.logoimg {
+    width: 55px;
+    background-color: transparent;
+    border: none;
+    /* filter: drop-shadow(2px 4px 6px black); */
+}
+</style>
+<body>
+	<div class="my-bg">
+		<nav class="navbar navbar-expand-lg  fixed-top bg-transparent my-bg-mobile mobile-nav">
+			<div class="container">
+				<a class="navbar-brand" href="#"><img src="assets/img/logos/logo.png" class="logoimg" alt="LOGO"></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="collapsibleNavbar">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="/index.html">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="/about.html">About Us</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Services</a>
+							<div class="dropdown-menu">
+								<a class="dropdown-item" href="/priceTable.html">Packages</a>
+								<a class="dropdown-item" href="/projects.html">Projects</a>
+								<a class="dropdown-item" href="/accountSet.html">Account Settings</a>
+							  </div>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="/contact.html">Blog</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="/contact.html">Contact Us</a>
+						</li>
+					</ul>
+					<ul class="navbar-nav">	
+						<li class="nav-item  mr-1">
+							<a class="btn mybtn-2" href="/login.html">Login</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	
+	
+
+	<section class="sec-1">
+
+			<div class="container">
+				<div class="row">
+					<div class="col-md-7">
+						<div class="sec-1-1">
+							<div class="row">
+								<div class="col-md-12">
+									<h1>Build Fast,<br>launch<br>quickly.</h1>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12">
+									<p>Launch your SaaS in style with this suite of<br>carefully crafted pages and
+										components.
+									</p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-8 col-xs-12 col-lg-6">
+									<button class="btn mybtn-1" href="#"><i class="fa fa-retweet"></i> Fully
+										Responsive</button>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-8 col-xs-12 col-lg-6">
+									<button class="btn mybtn-1" href="#"><i class="fa fa-server"></i> Multiple
+										layouts</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-5">
+						<div class="sec-1-2">
+
+							<div class="frm-input">
+								Your Name:
+								<input type="text" name="name" class="form-control" placeholder="Full name">
+							</div>
+
+							<div class="frm-input">
+								Email Address:
+								<input type="text" name="email" class="form-control" placeholder="Your email">
+							</div>
+							<div class="frm-input">
+								Phone number:
+								<input type="number" name="phone-number" class="form-control" placeholder="Phone no.">
+							</div>
+
+							<div class="frm-input">
+								Approximte budget:
+								<select id="sub" name="budget" class="form-control" placeholder="Select an option">
+									<option>Select an option</option>
+									<option>Less than 5,000</option>
+									<option>5,000 to 10,000</option>
+									<option>10,000 to 20,000</option>
+									<option>More than 20,000</option>
+								</select>
+							</div>
+
+							<div class="frm-input-button">
+								<button class="btn mybtn-2" type="submit">Request demo</button>
+							</div>
+
+						</div>
+					</div>
+				</div>
+
+		</section>
+		
+	</div>
+<section class="sec-2">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<div class="sec-2-1">
+						<div class="img-all-cntr">
+							<img src="assets/img/index/img-sec-2.png" class="img-thumbnail">
+						</div>	
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="sec-2-2">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="features-heading">
+									<h1>Here's how we do things differently</h1>
+								</div>	
+							</div>
+						</div>
+						<div class="features-desc">
+							<div class="row">
+								<div class="col-md-2">
+									<i class="fa fa-retweet fa-3x"></i>
+								</div>
+								<div class=" col-md-10">
+									<h5>Fully Responsive</h5>
+
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget ultrices
+										purus,
+										sit amet aliquam libero. Aenean aliquet.</p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-2">
+									<i class="fa fa-server fa-3x"></i>
+								</div>
+								<div class=" col-md-10">
+
+									<h5>Multiple Layouts</h5>
+
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget ultrices
+										purus,
+										sit amet aliquam libero. Aenean aliquet.</p>
+								</div>
+							</div>
+						</div>	
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+<section class="sec-3">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-5">
+				<div class="sec-3-1">
+					<div class="cstmrs-overview">
+					<div class="r1">
+						<div class="col-md-12">
+							<h1>
+								Offers potential customers a <u>free sample</u>
+							</h1>
+						</div>
+					</div>
+					<div class="r2">
+						<div class="col-md-12">
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget ultrices
+								purus,
+								sit amet aliquam libero. Aenean aliquet.</p>
+						</div>
+					</div>
+					<div class="r3">
+						<div class="col-md-12">
+							<div class="row">
+								<div class="col-md-4">
+									<h2>97%</h2>
+									<h6>User satisfaction</h6>
+								</div>
+								<div class="col-md-4">
+									<h2>24/7</h2>
+									<h6>Support</h6>
+								</div>
+								<div class="col-md-4">
+									<h2>150K+</h2>
+									<h6>Downloads</h6>
+								</div>
+							</div>
+						</div>
+					</div>
+					</div>
+				</div>
+			</div>
+			<div class="offset-md-1 col-md-5">
+
+				<div class="sec-3-2">
+					<div class="sec-3-2-1">
+						<img src="..//img/common/img-sec-3.jpeg" class="img-thumbnail">
+					</div>
+					<div class="sec-3-2-2">
+						<div class="frm-input">
+							Your Name:
+							<input type="text" name="name" class="form-control" placeholder="Full name">
+						</div>
+						<div class="frm-input">
+							Email Address:
+							<input type="text" name="email" class="form-control" placeholder="Your email">
+						</div>
+						<div class="frm-input-button">
+							<button class="btn mybtn-2" type="submit">Request Demo</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="game">
+	<div class="row">
+		<div class="col-md-12">
+			<div class="game-img">
+				<p class="game-text"><sub><span class="fa fa-play-circle fa-3x play"></span></sub><span>
+						"They changed the Game."</span></p>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="plans pl-curve">
+	<div class="container">
+		<div class="plan-cards">
+			<div class="row">
+				<div class="col-md-4">
+					<div class="basic">
+						<div class="card">
+							<div class="row">
+								<div class="col-md-12">
+									<h5 class="plan-text">Basic</h5>
+								</div>
+							</div>
+							<div clas="row">
+								<div class="col-md-12">
+									<sup class="dollar">₹</sup><span class="display-4 text-center" style="font-weight:500">19</span>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12">
+									<h6 class="per-user">Per user, Per month</h6>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12">
+									<div class="badge-text">
+										<span class="badge badge-success"><span class="fa fa-check check"></span></span>
+										<span class="ticks">2GB cloud storage</span>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12">
+									<div class="badge-text">
+										<span class="badge badge-success"><span class="fa fa-check check"></span></span>
+										<span class="ticks">2GB cloud storage</span>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12">
+									<div class="badge-text">
+										<span class="badge badge-success"><span class="fa fa-check check"></span></span>
+										<span class="ticks">2GB cloud storage</span>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12">
+									<div class="badge-text">
+										<span class="badge badge-danger"><span class="fa fa-times check"></span></span>
+										<span class="ticks">2GB cloud storage</span>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12">
+									<div class="badge-text">
+										<span class="badge badge-danger"><span class="fa fa-times check"></span></span>
+										<span class="ticks">2GB cloud storage</span>
+									</div>
+								</div>
+							</div>
+
+							<div class="start">
+								<a href="#" class="btn mybtn-3">Start with
+									Basic</a>
+							</div>
+
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="premium">
+						<div class="card">
+							<div class="row">
+								<div class="col-md-12">
+									<div class="best-value">
+										<a href="#" class="btn mybtn-4">Best
+											Value</a>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12">
+									<h5 class="text-center font-weight-bold">Premium</h5>
+								</div>
+							</div>
+							<div clas="row">
+								<div class="col-md-12">
+									<sup class="dollar">₹</sup><span class="display-4 text-center" style="font-weight:500">19</span>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12">
+									<h6 class="per-user">Per user, Per month</h6>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12">
+									<div class="badge-text">
+										<span class="badge badge-success"><span class="fa fa-check check"></span></span>
+										<span class="ticks">2GB cloud storage</span>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12">
+									<div class="badge-text">
+										<span class="badge badge-success"><span class="fa fa-check check"></span></span>
+										<span class="ticks">2GB cloud storage</span>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12">
+									<div class="badge-text">
+										<span class="badge badge-success"><span class="fa fa-check check"></span></span>
+										<span class="ticks">2GB cloud storage</span>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12">
+									<div class="badge-text">
+										<span class="badge badge-danger"><span class="fa fa-times check"></span></span>
+										<span class="ticks">2GB cloud storage</span>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12">
+									<div class="badge-text">
+										<span class="badge badge-danger"><span class="fa fa-times check"></span></span>
+										<span class="ticks">2GB cloud storage</span>
+									</div>
+								</div>
+							</div>
+
+							<div class="start">
+								<a href="#" class="btn mybtn-4">Start with Premium</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="basic">
+						<div class="card">
+							<div class="row">
+								<div class="col-md-12">
+									<h5 class="plan-text">Economy</h5>
+								</div>
+							</div>
+							<div clas="row">
+								<div class="col-md-12">
+
+									<sup class="dollar">₹</sup><span class="display-4 text-center" style="font-weight:500">19</span>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12">
+									<h6 class="per-user">Per user, Per month</h6>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12">
+									<div class="badge-text">
+										<span class="badge badge-success"><span class="fa fa-check check"></span></span>
+										<span class="ticks">2GB cloud storage</span>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12">
+									<div class="badge-text">
+										<span class="badge badge-success"><span class="fa fa-check check"></span></span>
+										<span class="ticks">2GB cloud storage</span>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12">
+									<div class="badge-text">
+										<span class="badge badge-success"><span class="fa fa-check check"></span></span>
+										<span class="ticks">2GB cloud storage</span>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12">
+									<div class="badge-text">
+										<span class="badge badge-danger"><span class="fa fa-times check"></span></span>
+										<span class="ticks">2GB cloud storage</span>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12">
+									<div class="badge-text">
+										<span class="badge badge-danger"><span class="fa fa-times check"></span></span>
+										<span class="ticks">2GB cloud storage</span>
+									</div>
+								</div>
+							</div>
+
+							<div class="start">
+								<a href="#" class="btn mybtn-3">Start with Economy</a>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="for-overlapping">
+		<div class="row">
+			<div class="col-md-12 col-sm-12">
+				<div class="touch">
+					<a href="Welcome/priceTable" class="touch-link">Is there something we didn't cover
+						here?
+					</a>
+				</div>
+			</div>
+		</div>
+</div>
+
+	</div>
+</section>
+</body>
+<section class="blank">
+
+</section>
+<!-- FOOTER -->
+<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-2">
+					<div class="ftr-links">
+						<h6>menu</h6>
+						<ul class="list-unstyled">
+							<li><a href="\" class="list-ftr">Home</a></li>
+							<li><a href="Welcome/about" class="list-ftr">Aboutus</a></li>
+							<li><a href="Welcome/contact" class="list-ftr">Contact</a></li>
+							<li><a href="Welcome/login" class="list-ftr">signup</a></li>
+
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="ftr-links">
+						<h6>Services</h6>
+						<ul class="list-unstyled">
+
+							<li><a href="Welcome/projects" class="list-ftr">projects</a></li>
+							<li><a href="#" class="list-ftr">Policy</a></li>
+							<li><a href="#" class="list-ftr">Terms & Conditions</a></li>
+							<li><a href="#" class="list-ftr">Blog</a></li>
+							<!-- <li><a href="#" class="list-ftr">Support</a></li> -->
+
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="ftr-links">
+						<h6>Social Media</h6>
+
+						<div class="ftr-icons">
+							<a href="#"><span class="fb sm"><span class="fa fa-facebook fa-1x"></span>
+								</span></a>
+							<a href="#"><span class="fb sm"><span class="fa fa-twitter fa-1x"></span>
+								</span></a>
+
+							<a href="#"><span class="fb sm"><span class="fa fa-linkedin fa-1x"></span>
+								</span></a>
+
+							<a href="#"><span class="fb sm "><span class="fa fa-envelope fa-1x"></span>
+								</span></a>
+
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="ftr-forms">
+						<div class="ftr-links">
+							<h6>subscribe</h6>
+							<p class="design">Get a bi-weekly design of our latest updates</p>
+							<form class="form-inline" >
+								<input type="text" class="form-control mr-sm-2" id="email2"
+									placeholder="Enter email" name="email">
+							    <div class="row">
+									<div class="col-md-12">
+								        <div class="ftr-btn">
+											<button type="submit" class="btn mybtn-4 ">Submit</button>
+										</div>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+					<p class="email">We'll never share your email
+
+					</p>
+				</div>
+			</div>
+			<hr class="generic">
+			<div class="copyright">Copyright © 2020 www.rishabh-aggarwal.com 
+			</div>
+		</div>
+	</footer>
+</body>
+<script src="../assets/js/script.js "></script>
+
 </html>
