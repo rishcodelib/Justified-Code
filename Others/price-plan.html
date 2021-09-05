@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Website name</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* section 0: seperation */
+        .seperation {
+            padding: 20px 20px;
+        }
+
+
+        /* section 1:Prices */
+        section.plans {
+            text-align: center;
+        }
+
+        .plans .price-icon {
+            text-align: center;
+            background-color: rgb(222, 235, 236);
+            border-radius: 50%;
+            padding: 20px;
+            color: #1bbc9d;
+        }
+
+        .plans .icon-head {
+            font-weight: bold;
+            padding-top: 20px;
+        }
+
+        .plans .plan-text {
+            text-align: center;
+            font-size: 12px;
+        }
+
+        /* section 2: faq */
+        section.faq {
+            padding-bottom: 15px;
+            padding-top: 30px;
+        }
+
+        .faq .faq-head {
+            font-weight: 500;
+            text-align: center;
+            font-size: 70px;
+        }
+
+        .faq .faq-text {
+            text-align: center;
+            font-size: 20px;
+        }
+
+        .faq .accordian {
+            background-color: white;
+            color: black;
+            width: 50%;
+            text-align: left;
+            border: 1px solid rgb(234, 237, 242);
+            border-radius: 5px;
+            padding: 18px;
+            font-weight: 500;
+        }
+
+        .faq .accord {
+            text-align: center;
+        }
+
+        .faq .panel {
+            padding: 0 18px;
+            background-color: white;
+            display: none;
+            overflow: hidden;
+        }
+
+        .faq .txt {
+            color: #1bbc9d;
+        }
+
+        .faq .symbol {
+            float: right;
+        }
+
+        /* section 3: chat-box */
+        section.chat-box {
+            background-color: #1bbc9d;
+        }
+
+        .chat-box .chat-cards {
+            width: 80%;
+            background-color: rgb(236, 238, 238, 0.2);
+            border: none;
+            float: right;
+        }
+
+        .chat-box .dig {
+            font-size: 40px;
+            color: white;
+            font-weight: 500;
+            text-align: center;
+            padding-top: 40px;
+        }
+
+        .chat-box .chat-text {
+            text-align: center;
+            color: white;
+            font-size: 15px;
+        }
+
+        .chat-box .card-img-left {
+            position: absolute;
+            top: 33px;
+            right: 100%;
+            margin-right: -21px;
+            height: 52px;
+        }
+    </style>
+</head>
+
+
+<body>
+    <div class="my-bg ">
+        <nav class="navbar navbar-expand-lg  navbar-dark fixed-top bg-transparent mobile-nav">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="img/rishabh-logo.png" width="200px" height="50px"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Clients</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn mybtn-2" href="#">Login</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <section class="sec-1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="plans-head">
+                            <p class="head-plan">Pricing that scales with you.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <p class="plan-title">Contrary to popular belief, Lorem Ipsum is not simply random text.Lorem
+                            Ipsum is
+                            simply dummy text of the printing and typesetting industry.
+                        </p>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </section>
+    </div>
+    <section class="prices">
+        <div class="plan-bg">
+            <div class="container">
+                <div class="plan-cards">
+                    <div class="seperation">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="basic">
+                                    <div class="card">
+
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <h5 class="plan-text">Basic</h5>
+                                            </div>
+                                        </div>
+                                        <div clas="row">
+                                            <div class="col-md-12">
+                                                <sup class="dollar">$</sup><span class="display-4 text-center"
+                                                    style="font-weight:500">19</span>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <h6 class="per-user">Per user, Per month</h6>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="badge-text">
+                                                    <span class="badge badge-success"><span
+                                                            class="fa fa-check check"></span></span>
+                                                    <span class="ticks">2GB cloud storage</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="badge-text">
+                                                    <span class="badge badge-success"><span
+                                                            class="fa fa-check check"></span></span>
+                                                    <span class="ticks">2GB cloud storage</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="badge-text">
+                                                    <span class="badge badge-success"><span
+                                                            class="fa fa-check check"></span></span>
+                                                    <span class="ticks">2GB cloud storage</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="badge-text">
+                                                    <span class="badge badge-danger"><span
+                                                            class="fa fa-times check"></span></span>
+                                                    <span class="ticks">2GB cloud storage</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="badge-text">
+                                                    <span class="badge badge-danger"><span
+                                                            class="fa fa-times check"></span></span>
+                                                    <span class="ticks">2GB cloud storage</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="start">
+                                            <a href="#" class="btn mybtn-3">Start with
+                                                Basic</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="premium">
+                                    <div class="card">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="best-value">
+                                                    <a href="#" class="btn mybtn-4">Best
+                                                        Value</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <h5 class="text-center font-weight-bold">Basic</h5>
+                                            </div>
+                                        </div>
+                                        <div clas="row">
+                                            <div class="col-md-12">
+                                                <sup class="dollar">$</sup><span class="display-4 text-center"
+                                                    style="font-weight:500">19</span>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <h6 class="per-user">Per user, Per month</h6>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="badge-text">
+                                                    <span class="badge badge-success"><span
+                                                            class="fa fa-check check"></span></span>
+                                                    <span class="ticks">2GB cloud storage</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="badge-text">
+                                                    <span class="badge badge-success"><span
+                                                            class="fa fa-check check"></span></span>
+                                                    <span class="ticks">2GB cloud storage</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="badge-text">
+                                                    <span class="badge badge-success"><span
+                                                            class="fa fa-check check"></span></span>
+                                                    <span class="ticks">2GB cloud storage</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="badge-text">
+                                                    <span class="badge badge-danger"><span
+                                                            class="fa fa-times check"></span></span>
+                                                    <span class="ticks">2GB cloud storage</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="badge-text">
+                                                    <span class="badge badge-danger"><span
+                                                            class="fa fa-times check"></span></span>
+                                                    <span class="ticks">2GB cloud storage</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="start">
+                                            <a href="#" class="btn mybtn-4">Start with Premium</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="basic">
+                                    <div class="card">
+
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <h5 class="plan-text">Basic</h5>
+                                            </div>
+                                        </div>
+                                        <div clas="row">
+                                            <div class="col-md-12">
+
+                                                <sup class="dollar">$</sup><span class="display-4 text-center"
+                                                    style="font-weight:500">19</span>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <h6 class="per-user">Per user, Per month</h6>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="badge-text">
+                                                    <span class="badge badge-success"><span
+                                                            class="fa fa-check check"></span></span>
+                                                    <span class="ticks">2GB cloud storage</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="badge-text">
+                                                    <span class="badge badge-success"><span
+                                                            class="fa fa-check check"></span></span>
+                                                    <span class="ticks">2GB cloud storage</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="badge-text">
+                                                    <span class="badge badge-success"><span
+                                                            class="fa fa-check check"></span></span>
+                                                    <span class="ticks">2GB cloud storage</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="badge-text">
+                                                    <span class="badge badge-danger"><span
+                                                            class="fa fa-times check"></span></span>
+                                                    <span class="ticks">2GB cloud storage</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="badge-text">
+                                                    <span class="badge badge-danger"><span
+                                                            class="fa fa-times check"></span></span>
+                                                    <span class="ticks">2GB cloud storage</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="start">
+                                            <a href="#" class="btn mybtn-3">Start with Basic</a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="seperation">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="plan-icons">
+                                <i class="fa fa-retweet fa-2x price-icon"></i>
+                                <p class="icon-head">Fully Responsive</p>
+                                <p class="plan-text">Various versions have evolved over the years, sometimes by
+                                    accident,
+                                    sometimes on
+                                    purpose.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="plan-icons">
+                                <i class="fa fa-server fa-2x price-icon"></i>
+                                <p class="icon-head">Fully Responsive</p>
+                                <p class="plan-text">Various versions have evolved over the years, sometimes by
+                                    accident,
+                                    sometimes on
+                                    purpose.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="plan-icons">
+                                <i class="fa fa-retweet fa-2x price-icon"></i>
+                                <p class="icon-head">Fully Responsive</p>
+                                <p class="plan-text">Various versions have evolved over the years, sometimes by
+                                    accident,
+                                    sometimes on
+                                    purpose.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="faq">
+        <div class="container">
+            <div class="seperation">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="faq-head">
+                            <p>FAQ</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="seperation">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="faq-text">
+                            <p>All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as
+                                necessary, making this this the first true generator on the Internet sometimes by
+                                accident, sometimes on
+                                purpose..</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="seperation">
+                <div class="accord">
+                    <div class="seperation">
+                        <button class="accordian txt">Can I update later on?<span
+                                class="fa fa-caret-right symbol"></span></button>
+
+                        <div class="panel">
+                            <p>All the Lorem Ipsum generators on the Internet tend to repeat
+                                predefined chunks as necessary,
+                                making this the first true generator on the Internet sometimes by accident, sometimes on
+                                purpose..</p>
+                        </div>
+                    </div>
+                    <div class="seperation">
+                        <button class="accordian">Can I update later on?<span
+                                class="fa fa-caret-right symbol"></span></button>
+                        <div class="panel">
+                            <p>All the Lorem Ipsum generators on the Internet tend to repeat
+                                predefined chunks as necessary,
+                                making this the first true generator on the Internet sometimes by accident, sometimes on
+                                purpose..</p>
+                        </div>
+                    </div>
+                    <div class="seperation">
+                        <button class="accordian txt">Can I update later on?<span
+                                class="fa fa-caret-right symbol"></span></button>
+                        <div class="panel">
+                            <p>All the Lorem Ipsum generators on the Internet tend to repeat
+                                predefined chunks as necessary,
+                                making this the first true generator on the Internet sometimes by accident, sometimes on
+                                purpose..</p>
+                        </div>
+                    </div>
+                    <div class="seperation">
+                        <button class="accordian">Can I update later on?<span
+                                class="fa fa-caret-right symbol"></span></button>
+                        <div class="panel">
+                            <p>All the Lorem Ipsum generators on the Internet tend to repeat
+                                predefined chunks as necessary,
+                                making this the first true generator on the Internet sometimes by accident, sometimes on
+                                purpose..</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="chat-box pl-curve">
+        <div class="container">
+            <div class="chats">
+                <div class="seperation">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p class="dig">People are Diggin' it </p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="seperation">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p class="chat-text">All the Lorem Ipsum generators on the Internet tend to repeat
+                            predefined chunks as necessary,
+                            making this the first true generator on the Internet sometimes by accident, sometimes on
+                            purpose..</p>
+                    </div>
+                </div>
+            </div>
+            <div class="seperation">
+                <div class="row">
+                    <div class="col-md-10">
+                        <div class="card chat-cards">
+                            <div class="card-body">
+                                <img class="card-img-left img-circle rounded-circle" src="img/img33.png">
+                                <p class="chat-text">All the Lorem Ipsum generators on the Internet tend to repeat
+                                    predefined chunks as necessary,
+                                    making this the first true generator on the Internet sometimes by accident,
+                                    sometimes on
+                                    purpose..</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2"></div>
+                </div>
+            </div>
+            <div class="seperation">
+                <div class="row">
+                    <div class="col-md-10">
+                        <div class="card chat-cards">
+                            <div class="card-body">
+                                <img class="card-img-left img-circle rounded-circle" src="img/img33.png">
+                                <p class="chat-text">All the Lorem Ipsum generators on the Internet tend to repeat
+                                    predefined chunks as necessary,
+                                    making this the first true generator on the Internet sometimes by accident,
+                                    sometimes on
+                                    purpose..</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="blank">
+
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="ftr-links">
+                        <h6>Menu</h6>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="list-ftr">Home</a></li>
+                            <li><a href="#" class="list-ftr">Services</a></li>
+                            <li><a href="#" class="list-ftr">Pricing</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="ftr-links">
+                        <h6>Pages</h6>
+                        <ul class="list-unstyled">
+
+                            <li><a href="#" class="list-ftr">Policy</a></li>
+                            <li><a href="#" class="list-ftr">Terms & Conditions</a></li>
+                            <li><a href="#" class="list-ftr">Blog</a></li>
+                            <li><a href="#" class="list-ftr">Support</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="ftr-links">
+                        <h6>Social Media</h6>
+
+                        <div class="ftr-icons">
+                            <a href="#"><span class="fb sm"><span class="fa fa-facebook fa-1x"></span>
+                                </span></a>
+                            <a href="#"><span class="twitter sm"><span class="fa fa-twitter fa-1x"></span>
+                                </span></a>
+
+                            <a href="#"><span class="ln sm"><span class="fa fa-linkedin fa-1x"></span>
+                                </span></a>
+
+                            <a href="#"><span class="gmail sm "><span class="fa fa-envelope fa-1x"></span>
+                                </span></a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="ftr-forms">
+                        <div class="ftr-links">
+                            <h6>Newsletter</h6>
+                            <p class="design">Get a bi-weekly design of best articles.</p>
+                            <form class="form-inline">
+                                <input type="text" class="form-control mr-sm-2" id="email2" placeholder="Enter email"
+                                    name="email">
+                                <div class="button_space">
+                                    <button type="submit" class="btn mybtn-4 ">Submit</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <p class="email">We'll never share your email
+
+                    </p>
+                </div>
+            </div>
+            <hr class="generic">
+            <div class="copyright">© 2019 Page protected by reCAPTCHA and subject to Google's <span
+                    class="copy">Privacy's
+                    Policy</span>and <span class="copy">Terms of Services.</span>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="js/script.js"></script>
+
+</html>

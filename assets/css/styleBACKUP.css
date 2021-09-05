@@ -1,0 +1,641 @@
+/* Header CSS Below*/
+
+
+
+
+
+
+
+
+
+/* Body CSS Below */
+
+.mybtn-3 {
+    border-radius: 25px;
+    background-color: transparent;
+    height: 40px;
+    color: #2a83bf;
+    text-align: center;
+    font-size: 15px;
+    cursor: pointer;
+    width: 60%;
+    border: 2px solid #2a83bf;
+    padding: 10px 0px 33px 0px;
+}
+
+.mybtn-3:hover {
+    background-color: #2a83bf;
+    color: white;
+}
+
+.mybtn-4 {
+    border-radius: 25px;
+    background-color: #2a83bf;
+    height: 40px;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    cursor: pointer;
+    width: 65%;
+    border: 2px solid #2a83bf;
+    padding: 10px 0px 33px 0px;
+}
+
+.mybtn-4:hover {
+    background-color: transparent;
+    color: #2a83bf;
+}
+
+section.game {
+    overflow-x: hidden;
+}
+
+.game .game-img {
+    background-image: url("assets/img/picture.png");
+    width: 100%;
+    min-height: 350px;
+}
+
+.game .game-text {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    padding-top: 100px;
+}
+
+.game .play {
+    text-align: center;
+    padding-right: 15px;
+    padding-bottom: 20px;
+}
+
+.plans {
+    background-color: #2a83bf;
+    width: 100%;
+    min-height: 800px;
+    overflow: hidden;
+    margin-top: -50px;
+}
+
+.plans .dollar {
+    float: center;
+    font-weight: bold;
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+.prices {
+    background-color: rgb(247, 249, 252);
+    min-height: 1000px;
+    border-bottom-left-radius: 150% 50%;
+    border-bottom-right-radius: 150% 50%;
+}
+
+.plan-cards {
+    text-align: center;
+    padding-top: 90px;
+    min-width: 50%;
+}
+
+.plan-cards .basic {
+    padding: 15px 0px 30px 0px;
+}
+
+.plan-cards .badge-text {
+    text-align: center;
+    padding: 15px 0px 15px 0px;
+    font-size: 12px;
+}
+
+.start {
+    padding-bottom: 5px;
+}
+
+.plan-cards .ticks {
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.plan-cards .per-user {
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.plan-cards .basic .card {
+    min-height: 500px;
+    padding-bottom: 20px;
+}
+
+.plan-cards .premium .card {
+    min-height: 550px;
+    padding-bottom: 20px;
+}
+
+.touch {
+    padding-top: 40px;
+}
+
+.plan-cards .plan-text {
+    padding: 20px 0px 5px 0px;
+    text-align: center;
+    font-weight: 900;
+}
+
+.plan-cards .premium .best-value {
+    padding: 25px 0px 15px 0px;
+}
+
+.best-value .mybtn-4 {
+    width: 100px;
+    height: 40px;
+}
+
+.my-bg {
+    background-image: url('../img/sec-1-bg.jpg');
+    border-bottom-left-radius: 150% 50%;
+    border-bottom-right-radius: 150% 50%;
+}
+
+@media only screen and (max-width: 767px) {
+    .my-bg {
+        border-bottom-left-radius: 0% 0% !important;
+        border-bottom-right-radius: 0% 0% !important;
+    }
+}
+
+.plans .touch .touch-link {
+    background-color: rgb(236, 238, 238, 0.2);
+    min-height: 80px;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 12px;
+    min-width: 250px;
+    border: 2px solid rgb(236, 238, 238, 0.2);
+}
+
+.touch-link:hover {
+    text-decoration: none;
+}
+
+.plans .touch {
+    height: 50px;
+    text-align: center;
+}
+
+.sec-1 {
+    padding-top: 120px;
+    padding-bottom: 100px;
+}
+
+.sec-1-2 {
+    padding: 20px;
+    background-color: white;
+    border-radius: 7px;
+}
+
+.mybtn-2 {
+    border-radius: 50px;
+    color: white;
+    background-color: #2a83bf;
+    width: 100%;
+}
+
+.mybtn-2:hover {
+    background-color: #05265b;
+    color: white;
+}
+
+.sec-1-2 .frm-input {
+    margin-bottom: 10px;
+}
+
+.sec-1-1 h1 {
+    font-family: 'Baloo Tamma 2', cursive;
+    font-size: 60px;
+    color: whitesmoke;
+}
+
+.sec-1-1 p {
+    color: whitesmoke;
+}
+
+.sec-1-1 .row {
+    padding-bottom: 10px;
+}
+
+.mybtn-1 {
+    color: #2a83bf;
+    background-color: white;
+    width: 100%;
+    height: 50px;
+}
+
+.mybtn-1:hover {
+    color: white !important;
+    background-color: #2a83bf !important;
+}
+
+.mybtn-1:hover i {
+    color: white !important;
+}
+
+.mybtn-1:focus {
+    box-shadow: none;
+}
+
+.sec-2 {
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+.sec-2-1 img{  
+    width: 70%;
+    height: 70%;
+    border:none !important;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sec-2-2 {
+    max-width: 500px;
+}
+
+.sec-2-2 h5 {
+    margin-bottom: 15px;
+}
+.sec-2-2 i{
+    color: #2a83bf;
+}
+
+.sec-3 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.sec-3-1 .r3{
+    text-align: center;
+}
+
+.sec-3-1 {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 100px;
+    height: 100%;
+}
+
+@media only screen and (max-width: 1199px) {
+    .sec-3-1 {
+        padding-top: 0px;
+    }
+}
+
+.sec-3-1 p {
+    line-height: 30px;
+}
+
+.sec-3-1 h2 {
+    color: #1bbc9d;
+    font-weight: 700;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.sec-3-1 u {
+    text-decoration: none;
+    border-bottom: 10px solid #ffdd8c;
+    display: inline-block;
+    line-height: 0.6em;
+}
+
+.sec-3-2 {
+    padding: 30px;
+    box-shadow: 1px 3px 15px 2px #d9d9d9;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 7px;
+    max-width: 70%;
+}
+
+.sec-3-2-1 {
+    padding-bottom: 20px;
+}
+.sec-3-2-1 img{
+    width: 100%;
+    height: 100%;
+}
+
+.sec-3-2-2 .frm-input {
+    margin-bottom: 15px;
+}
+
+.pl-curve {
+    border-bottom-left-radius: 150% 50%;
+    border-bottom-right-radius: 150% 50%;
+}
+
+@media only screen and (max-width: 991px) {
+    .navbar.navbar-expand-lg.navbar-dark.fixed-top.bg-transparent.mobile-nav {
+        background-color: #25353f !important;
+    }
+}
+
+.sec-1 .plans-head {
+    text-align: center;
+    color: white;
+}
+
+.sec-1 .plans-head .head-plan {
+    font-size: 80px;
+    font-weight: 700;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+
+.sec-1 .plan-title {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+.prices .plan-icons {
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.prices .price-icon {
+    text-align: center;
+    background-color: rgb(222, 235, 236);
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.prices .icon-head {
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.faq {
+    padding-bottom: 15px;
+    padding-top: 30px;
+}
+
+.faq .faq-head {
+    font-weight: bold;
+    text-align: center;
+    font-size: 50px;
+}
+
+.faq .faq-text {
+    text-align: center;
+    font-size: 17px;
+}
+
+.faq .accordian {
+    background-color: white;
+    color: black;
+    width: 50%;
+    text-align: left;
+    border: 1px solid rgb(234, 237, 242);
+    border-radius: 5px;
+    padding: 18px;
+    font-weight: 500;
+}
+
+.faq .accord {
+    text-align: center;
+}
+
+.faq .panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
+
+.faq .txt {
+    color: #1bbc9d;
+}
+
+.faq .symbol {
+    float: right;
+}
+
+.chat-box {
+    background-color: #1bbc9d;
+}
+
+.chat-box .card {
+    width: 80%;
+    background-color: rgb(236, 238, 238, 0.2);
+    border: none;
+}
+
+.chat-box .dig {
+    font-size: 40px;
+    color: white;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.chat-box .chat-text {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}
+
+.chat-box .card-img-left {
+    position: absolute;
+    top: 33px;
+    right: 100%;
+    margin-right: -21px;
+    height: 52px;
+}
+
+.about-top-bg {
+    background-image: url('assets/img/bg-image222.png');
+    border-bottom-left-radius: 150% 50%;
+    border-bottom-right-radius: 150% 50%;
+}
+
+@media only screen and (max-width: 767px) {
+    .about-top-bg {
+        border-bottom-left-radius: 0% 0% !important;
+        border-bottom-right-radius: 0% 0% !important;
+    }
+}
+
+.about-top {
+    padding-top: 100px;
+}
+
+.about-top-left {
+    padding: 30px;
+}
+
+.about-top-right {
+    padding: 50px;
+}
+
+.about-top-right a {
+    color: white;
+}
+
+/* Footer css Below */
+
+.footer {
+    position: relative;
+    background-color: #25353f;
+    padding: 10px 0px 0px 0px;
+    color: white;
+    /* z-index: -1; */
+    margin-top: -138px;
+}
+
+.footer .design {
+    color: white;
+    font-size: 12px;
+}
+
+.footer .list-ftr {
+    color: white;
+    font-size: 12px;
+}
+
+.footer .email {
+    color: slategray;
+    font-size: 12px;
+}
+
+.footer .generic {
+    background-color: slategray;
+}
+
+.footer .ftr-icons {
+    padding-top: 10px;
+}
+
+.footer .mybtn-4 {
+    width: 100%;
+    font-size: 12px;
+    border-radius: 26px;
+    text-align: center;
+    height: 21px;
+    padding: 8px 25px 25px 20px;
+
+    
+}
+
+.footer .ftr-link {
+    font-size: 15px
+}
+
+.ftr-btn {
+    padding-left: 15px;
+}
+
+.fb {
+    color: white;
+    padding-right: 7px;
+}
+
+.twitter {
+    color: white;
+    padding-right: 7px;
+}
+
+.ln {
+    color: white;
+    padding-right: 10px;
+}
+
+.gmail {
+    color: white;
+    padding-right: 7px;
+}
+
+.sm:hover {
+    color: #1bbc9d;
+}
+
+
+.copyright {
+    color: slategray;
+    font-size: 14px;
+}
+
+.footer .copy {
+    color: slategray;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.footer .copy-media {
+    float: right;
+    font-size: 14px;
+    color: lightgray;
+}
+
+.copy-media .face {
+    padding-left: 50px;
+    font-size: 16px;
+}
+
+.copy-media .twit {
+    padding-left: 50px;
+    font-size: 16px;
+}
+
+.copy-media .envel {
+    padding-left: 50px;
+    font-size: 16px;
+}
+
+.copy-media .in {
+    padding-left: 50px;
+    font-size: 16px;
+}
+.footer .ftr-links li a:hover {
+    border-left: 4px solid #1bbc9d;
+    padding-left: 5px;
+    transition: 0.5s ease;
+    text-decoration: none;
+}
+.blank {
+    height: 278px;
+    margin-top: -136px;
+    z-index: -1;
+    position: relative;
+    background-color: #25353f;
+}
+
+@media  (max-width: 425px) {
+    .touch {
+        padding-bottom: 80px;
+    }
+    .blank{
+        display: none;
+    }
+    .footer .ftr-links {
+        text-align: center;
+    }
+    .footer {
+        padding: 50px 0px 0px 0px;
+        color: white;
+        z-index: 0;
+        margin-top: 0px;
+    }
+   
+    .sec-2-2 {
+        text-align: center;
+    }
+    .pl-curve {
+        border-bottom-left-radius: 0% 0%;
+        border-bottom-right-radius: 0% 0%;
+    }
+    .plans {
+        margin-top: 0px;
+    }
+}
+
+/* Please Don't write anycode below this line */

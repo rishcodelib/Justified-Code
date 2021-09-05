@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Justified Code</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+
+	<link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@600&display=swap" rel="stylesheet">
+
+	<script src="../assets/js/jquery.min.js>"></script>
+	<script src="../assets/js/bootstrap.min.js>"></script>
+	<script src="https://kit.fontawesome.com/059627b691.js" crossorigin="anonymous"></script>
+
+	<link rel="stylesheet" href="../assets/css/style.css">
+	<link rel="stylesheet" href="../assets/css/style2.css">
+</head>
+<style>
+.logoimg {
+    width: 55px;
+    background-color: transparent;
+    border: none;
+    /* filter: drop-shadow(2px 4px 6px black); */
+}
+</style>
+<body>
+	<div class="my-bg">
+		<nav class="navbar navbar-expand-lg  fixed-top bg-transparent my-bg-mobile mobile-nav">
+			<div class="container">
+				<a class="navbar-brand" href="#"><img src="../assets/img/logos/logo.png" class="logoimg" alt="LOGO"></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="collapsibleNavbar">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="Welcome/index">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="Welcome/about">About Us</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Services</a>
+							<div class="dropdown-menu">
+								<a class="dropdown-item" href="Welcome/priceTable">Packages</a>
+								<a class="dropdown-item" href="Welcome/projects">Projects</a>
+								<a class="dropdown-item" href="Welcome/accountSet">Account Settings</a>
+							  </div>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="Welcome/contact">Blog</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="Welcome/contact">Contact Us</a>
+						</li>
+					</ul>
+					<ul class="navbar-nav">	
+						<li class="nav-item  mr-1">
+							<a class="btn mybtn-2" href="Welcome/login">Login</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	
+    <section class="sec-1 pt-0">
+        <!-- <div class="container">
+                <div class="sec-1-1">
+                    <div class="row">
+                        <div class="col-md-2">
+                        <div class="plan-icons">
+                            <i class="fa fa-retweet fa-2x price-icon"></i>
+                        </div>
+                    </div>
+                        <div class="col-md-10">
+                            <h1>Account Settings</h1>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget ultrices purus, sit amet aliquam libero. Aenean aliquet.</p>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>  -->
+    </section>
+    </div>
+    <section class="account for-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2">
+                    <div class="account-icon">
+                        <i class="fa fa-retweet fa-3x acc-icon"></i>
+                    </div>
+                </div>
+
+                <div class="col-md-8">
+                    <h1>Account Settings</h1>
+                    <p class="acc-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <hr>
+    <section class="account-settings seperator">
+        <div class="container">
+            <div class="account-bg">
+                <div claass="row">
+                    <div class="col-md-12">
+                        <div class="account-tab">
+                            <div class="account-tab">
+                                <ul class="nav nav-tabs" role="tablist">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" data-toggle="tab" href="#profile">Profile</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-toggle="tab" href="#billing">Billing</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-toggle="tab" href="#notifications">Notifications</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="account-tab-content pl-curve">
+            <div class="tab-content">
+                <div id="profile" class="container tab-pane active">
+                    <div class="for-center">
+                    <div class="row">
+                        <div class="col-md-2">
+                            <div class="member">
+                                <img src="<?php echo base_url("assets/img/common/dummy-img.png") ?>">
+                            </div>
+                        </div>
+                        <div class="col-md-10">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="input-upload">
+
+                                        <label for="file-upload" class="custom-file-upload">
+                                            Upload Avtar
+                                        </label>
+                                        <input id="file-upload" type="file" />
+                                        <!-- <a class="btn mybtn-4">Upload Avtar</a> -->
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <p>For best results,use an image at least 256px by 256px in either .jpg or .png
+                                        format</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    <hr>
+                    <div class="seperation">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h4>Account Details</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div class="border-notification">
+                                <form>
+
+                                    <div class="form-group">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="form-contact">
+                                                    <label for="name">First Name</label>
+                                                    <input type="text" class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-contact">
+                                                    <label for="email">Last Name</label>
+                                                    <input type="text" class="form-control">
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="form-contact">
+                                                    <label for="name">Username</label>
+                                                    <input type="text" class="form-control">
+                                                    <p>This will be displayed on your public profile</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="form-contact">
+                                                    <label for="name">Email Address</label>
+                                                    <input type="text" class="form-control">
+                                                    <p>Use to login to your account</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="small-scr-btn">
+                                                    <button type="button" class="btn mybtn-4">Save Changes</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="right-side seperation">
+                                <p>Your information is always kept encrypted and can never be accessed by third
+                                    parties<a href="#">View our Privacy Policy.</a></p>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <hr>
+                    <div class="seperation">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h4>Profile Information</h4>
+                        </div>
+                    </div>
+                    <div class="for-overlapping">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div class="border-notification">
+                                <form>
+                                    <div class="form-group">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="form-contact">
+                                                    <label for="name">City</label>
+                                                    <input type="text" class="form-control">
+                                                </div>
+
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-contact">
+                                                    <label for="email">Country</label>
+                                                    <input type="text" class="form-control">
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="form-contact">
+                                                    <label for="name">Birthday</label>
+                                                    <input type="text" class="form-control">
+                                                    <p>This will never be made public</p>
+                                                </div>
+
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-contact">
+                                                    <label for="email">Website</label>
+                                                    <input type="text" class="form-control">
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="form-contact">
+                                                    <label for="name">Twitter Handle</label>
+                                                    <div class="input-group">
+                                                        <div class="input-group-prepend">
+                                                            <span class="input-group-text">@</span>
+                                                        </div>
+                                                        <input type="text" class="form-control">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12">
+
+                                                <label for="comment">Profile Text:</label>
+
+                                                <textarea class="form-control" rows="5" id="comment"></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="seperation">
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <div class="small-scr-btn">
+                                                        <button type="button" class="btn mybtn-4">Save Changes</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-4">
+                            
+                                <div class="right-side seperation">
+                                    <p>Your information is always kept encrypted and can never be accessed by third
+                                    parties
+                                        <a href="#">View our Privacy Policy.</a>
+                                    </p>
+                                </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                </div>
+                </div>
+                <div id="billing" class="container tab-pane fade">
+                    <div class="row">
+                        <div class="col-md-7">
+                            <h3 class="seperation">Payment Methods</h3>
+                        </div>
+                        <div class="col-md-5">
+                            <div class="small-scr-btn">
+                                <a href="#" class="btn mybtn-4">Add Payment Method</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="account-bill seperation for-overlapping">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <img src="<?php echo base_url("assets/img/payment/master-card.png") ?>">
+
+                                                <span class="fa fa-ellipsis-h icons" style="float:right"></span>
+                                            </div>
+                                        </div>
+                                        <div class="account-text">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <h6 class="bill-cardno">.... .... .... 3928</h6>
+                                                </div>
+                                            </div>
+                                            <form>
+                                                <div class="radio-payment" style="float:right">
+                                                    <div class="custom-control custom-radio">
+                                                        <input type="radio" class="custom-control-input"
+                                                            id="customRadio1">
+                                                        <label class="custom-control-label" for="customRadio1"></label>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <span class="bill-text">Jonathan Wilson</span>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <img src="<?php echo base_url("assets/img/payment/visa.png") ?>">
+
+                                                <span class="fa fa-ellipsis-h icons" style="float:right"></span>
+                                            </div>
+                                        </div>
+                                        <div class="account-text">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <h6 class="bill-cardno">.... .... .... 3928</h6>
+                                                </div>
+                                            </div>
+                                            <form>
+                                                <div class="radio-payment" style="float:right">
+                                                    <div class="custom-control custom-radio">
+                                                        <input type="radio" class="custom-control-input"
+                                                            id="customRadio2">
+                                                        <label class="custom-control-label" for="customRadio2"></label>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <span class="bill-text">Jonathan Wilson</span>
+
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-4">
+                                <div class="card">
+                                
+                                    <div class="card-body">
+                                    
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <img src="<?php echo base_url("assets/img/payment/paypal.png") ?>">
+
+
+                                                <span class="fa fa-ellipsis-h icons" style="float:right"></span>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="account-text">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <h6 class="bill-cardno">.... .... .... 3928</h6>
+                                                </div>
+                                            </div>
+                                            <form>
+                                                <div class="radio-payment" style="float:right">
+                                                    <div class="custom-control custom-radio">
+                                                        <input type="radio" class="custom-control-input"
+                                                            id="customRadio3">
+                                                        <label class="custom-control-label" for="customRadio3"></label>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <span class="bill-text">Jonathan Wilson</span>
+
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="notifications" class="container tab-pane fade">
+                    <h3 class="seperation">Preferences</h3>
+                    <p>When would you like to recieve notification mails?</p>
+                <form>
+                    <div class="seperation">
+                        <div class="row">
+                            <div class="col-md-1 col-2">
+
+                                
+                                    <div class="notification-togs">
+                                        <div class="custom-control custom-switch">
+                                            <input type="checkbox" class="custom-control-input" id="switch1"
+                                                name="example">
+                                            <label class="custom-control-label" for="switch1"></label>
+                                        </div>
+                                    </div>
+                                
+                            </div>
+
+
+                            <div class="col-md-11 col-10">
+                                <div class="slider-text">When Someone Sharers My Activity</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="seperation">
+
+                        <div class="row">
+                            <div class="col-md-1 col-2">
+                                
+                                    <div class="notification-togs">
+                                        <div class="custom-control custom-switch">
+                                            <input type="checkbox" class="custom-control-input" id="switch2"
+                                                name="example">
+                                            <label class="custom-control-label" for="switch2"></label>
+                                        </div>
+                                    </div>
+                                
+                            </div>
+                            <div class="col-md-11 col-10">
+                                <div class="slider-text">When Someone Sharers My Activity</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="seperation">
+                        <div class="row">
+                            <div class="col-md-1 col-2">
+                                
+                                    <div class="notification-togs">
+                                        <div class="custom-control custom-switch">
+                                            <input type="checkbox" class="custom-control-input" id="switch3"
+                                                name="example">
+                                            <label class="custom-control-label" for="switch3"></label>
+                                        </div>
+                                    </div>
+                            
+                            </div>
+                            <div class="col-md-11 col-10">
+                                <div class="slider-text">When Someone Sharers My Activity</div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="seperation">
+                        <div class="row">
+                            <div class="col-md-1 col-2">
+                                
+                                    <div class="notification-togs">
+                                        <div class="custom-control custom-switch">
+                                            <input type="checkbox" class="custom-control-input" id="switch4"
+                                                name="example">
+                                            <label class="custom-control-label" for="switch4"></label>
+                                        </div>
+                                    </div>
+                                
+                            </div>
+                            <div class="col-md-11 col-10">
+
+                                <div class="slider-text">When Someone Sharers My Activity</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="seperation">
+                        <div class="row">
+                            <div class="col-md-1 col-2">
+                            
+                                    <div class="notification-togs">
+                                        <div class="custom-control custom-switch">
+                                            <input type="checkbox" class="custom-control-input" id="switch5"
+                                                name="example">
+                                            <label class="custom-control-label" for="switch5"></label>
+                                        </div>
+                                    </div>
+                                
+                            </div>
+                            <div class="col-md-11 col-10">
+                                <div class="slider-text">When Someone Sharers My Activity
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="seperation for-overlapping">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <a href="#" class="btn mybtn-4">Save Preferences</a>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                </div>
+            </div>
+        </div>
+</section>
+
+
+    
+<!-- FOOTER -->
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2">
+                <div class="ftr-links">
+                    <h6>menu</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="\" class="list-ftr">Home</a></li>
+                        <li><a href="Welcome/about" class="list-ftr">Aboutus</a></li>
+                        <li><a href="Welcome/contact" class="list-ftr">Contact</a></li>
+                        <li><a href="Welcome/login" class="list-ftr">signup</a></li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="ftr-links">
+                    <h6>Services</h6>
+                    <ul class="list-unstyled">
+
+                        <li><a href="Welcome/projects" class="list-ftr">projects</a></li>
+                        <li><a href="#" class="list-ftr">Policy</a></li>
+                        <li><a href="#" class="list-ftr">Terms & Conditions</a></li>
+                        <li><a href="#" class="list-ftr">Blog</a></li>
+                        <!-- <li><a href="#" class="list-ftr">Support</a></li> -->
+
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="ftr-links">
+                    <h6>Social Media</h6>
+
+                    <div class="ftr-icons">
+                        <a href="#"><span class="fb sm"><span class="fa fa-facebook fa-1x"></span>
+                            </span></a>
+                        <a href="#"><span class="fb sm"><span class="fa fa-twitter fa-1x"></span>
+                            </span></a>
+
+                        <a href="#"><span class="fb sm"><span class="fa fa-linkedin fa-1x"></span>
+                            </span></a>
+
+                        <a href="#"><span class="fb sm "><span class="fa fa-envelope fa-1x"></span>
+                            </span></a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="ftr-forms">
+                    <div class="ftr-links">
+                        <h6>subscribe</h6>
+                        <p class="design">Get a bi-weekly design of our latest updates</p>
+                        <form class="form-inline" >
+                            <input type="text" class="form-control mr-sm-2" id="email2"
+                                placeholder="Enter email" name="email">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="ftr-btn">
+                                        <button type="submit" class="btn mybtn-4 ">Submit</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <p class="email">We'll never share your email
+
+                </p>
+            </div>
+        </div>
+        <hr class="generic">
+        <div class="copyright">Copyright © 2020 www.rishabh-aggarwal.com 
+        </div>
+    </div>
+</footer>
+</body>
+<script src="../assets/js/script.js "></script>
+
+</html>

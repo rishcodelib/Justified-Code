@@ -1,0 +1,1166 @@
+/* Header CSS Below*/
+
+.my-bg {
+    background-image: url('../assets/img/index/sec-1-bg.jpg');
+    border-bottom-left-radius: 150% 50%;
+    border-bottom-right-radius: 150% 50%;
+}
+
+.nav-item.dropdown:hover .dropdown-menu{
+    display: block;
+}
+
+/* Body CSS Below */
+
+/* FOR MEDIA QUERIES */
+
+.seperator-price {
+    padding: 0px 10rem;
+}
+
+/*Common-CSS */
+
+.mybtn-1 {
+    color: #2a83bf;
+    background-color: white;
+    width: 100%;
+    height: 50px;
+}
+
+.mybtn-1:hover {
+    color: white !important;
+    background-color: #2a83bf !important;
+}
+
+.mybtn-1:hover i {
+    color: white !important;
+}
+
+.mybtn-1:focus {
+    box-shadow: none;
+}
+
+.mybtn-2 {
+    border-radius: 50px;
+    color: white;
+    background-color: #2a83bf;
+    width: 100%;
+}
+
+.mybtn-2:hover {
+    background-color: #05265b;
+    color: white;
+}
+.pl-curve {
+    position: relative;
+    border-bottom-left-radius: 150% 50%;
+    border-bottom-right-radius: 150% 50%;
+}
+
+.mybtn-3 {
+    border-radius: 25px;
+    background-color: transparent;
+    height: 40px;
+    color: #2a83bf;
+    text-align: center;
+    font-size: 15px;
+    cursor: pointer;
+    width: 70%;
+    border: 2px solid #2a83bf;
+    padding: 10px 0px 33px 0px;
+}
+
+.mybtn-3:hover {
+    background-color: #2a83bf;
+    color: white;
+}
+
+.mybtn-4 {
+    border-radius: 25px;
+    background-color: #2a83bf;
+    height: 40px;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    cursor: pointer;
+    width: 70%;
+    border: 2px solid #2a83bf;
+    padding: 10px 0px 33px 0px;
+}
+
+.mybtn-4:hover {
+    background-color: transparent;
+    color: #2a83bf;
+}
+/* .my-bg {
+    background-image: url('../assets/img/index/sec-1-bg.jpg');
+    border-bottom-left-radius: 150% 50%;
+    border-bottom-right-radius: 150% 50%;
+} */
+
+
+.blank {
+    height: 278px;
+    margin-top: -136px;
+    z-index: -1;
+    position: relative;
+    background-color: #25353f;
+}
+
+/* .pl-curve {
+    border-bottom-left-radius: 150% 50%;
+    border-bottom-right-radius: 150% 50%;
+}   */
+/* MY COMMON CSS */
+.seperation {
+    padding: 30px 0px;
+}
+
+.seperator-price {
+    padding: 0px 10rem;
+}
+/* landing page */
+
+/* section 1: sec-1 */
+
+section.sec-1 {
+    padding-top: 120px;
+    padding-bottom: 100px;
+}
+
+.sec-1 .sec-1-2 {
+    padding: 20px;
+    background-color: white;
+    border-radius: 7px;
+}
+
+.sec-1 .sec-1-2 .frm-input {
+    margin-bottom: 10px;
+}
+
+.sec-1 .sec-1-1 h1 {
+    font-family: 'Baloo Tamma 2', cursive;
+    font-size: 60px;
+    color: whitesmoke;
+}
+
+.sec-1 .sec-1-1 p {
+    color: whitesmoke;
+}
+
+.sec-1 .sec-1-1 .row {
+    padding-bottom: 10px;
+}
+
+/* Section-2: sec-2 */
+
+section.sec-2 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.sec-2 .sec-2-1{
+    height: 100%;
+    display: table;
+}
+.img-all-cntr{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+.sec-2 .sec-2-1 img{  
+    width: 70%;
+    border:none !important;
+
+}
+
+.sec-2 .sec-2-2 {
+    max-width: 500px;
+}
+.sec-2 .sec-2-2 .features-desc{
+    margin-top: 20px;
+}
+
+.sec-2 .sec-2-2 h5 {
+    margin-bottom: 15px;
+}
+.sec-2 .sec-2-2 i{
+    color: #2a83bf;
+}
+
+/* section:3 sec-3 */
+section.sec-3 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.sec-3 .sec-3-1 .r3{
+    text-align: center;
+}
+
+.sec-3 .sec-3-1 {
+    padding-top: auto;
+    padding-bottom: auto;
+    height: 100%;
+    display: table;
+}
+.sec-3 .cstmrs-overview{
+    display: table-cell;
+    vertical-align: middle;
+}
+.sec-3 .sec-3-1 p {
+    line-height: 30px;
+}
+
+.sec-3 .sec-3-1 h2 {
+    color: #2a83bf;
+    font-weight: 700;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.sec-3 .sec-3-1 u {
+    text-decoration: none;
+    border-bottom: 10px solid #ffdd8c;
+    display: inline-block;
+    line-height: 0.6em;
+}
+
+.sec-3 .sec-3-2 {
+    padding: 30px;
+    box-shadow: 1px 3px 15px 2px #d9d9d9;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 7px;
+}
+
+.sec-3 .sec-3-2-1 {
+    padding-bottom: 20px;
+}
+.sec-3 .sec-3-2-1 img{
+    width: 100%;
+    height: 100%;
+}
+
+.sec-3 .sec-3-2-2 .frm-input {
+    margin-bottom: 15px;
+}
+/* SECTION:4(GAME) */
+
+section.game {
+    overflow-x: hidden;
+}
+
+.game .game-img {
+    background-image: url("../assets/img/common/picture.png");
+    width: 100%;
+    min-height: 350px;
+}
+
+.game .game-text {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    padding-top: 100px;
+
+}
+
+.game .play {
+    text-align: center;
+    
+    position: relative;
+}
+.game .play:hover{
+    box-shadow: 1px 1px 2px 1px #cccc;
+    margin-top: -5px;
+    transition: ease-in 0.5s;
+    -moz-box-shadow:-2px 1px #cccc;
+  -webkit-box-shadow: -2px 1px #cccc;
+  -o-box-shadow: -2px 1px #cccc;
+  border-radius:100px;
+}
+
+/* SECTION:5(PLANS) */
+
+section.plans {
+    background-color: #2a83bf;
+    width: 100%;
+    min-height: 800px;
+    overflow: hidden;
+    
+}
+
+.plans .plan-cards {
+    text-align: center;
+    padding-top: 90px;
+    min-width: 50%;
+}
+
+.plans .plan-cards .basic {
+    padding: 15px 0px 30px 0px;
+}
+
+.plans .plan-cards .plan-text {
+    padding: 20px 0px 5px 0px;
+    text-align: center;
+    font-weight: 900;
+    font-size:15px;
+}
+
+.plans .dollar {
+    float: center;
+    font-weight: bold;
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+.plans .plan-cards .per-user {
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.plan-cards .badge-text {
+    text-align: center;
+    padding: 15px 0px 15px 0px;
+    font-size: 12px;
+}
+
+.plans .plan-cards .ticks {
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.plans .plan-cards .basic .card {
+    min-height: 500px;
+    padding-bottom: 20px;
+}
+
+.plans .start {
+    padding-bottom: 5px;
+   
+}
+
+.plans .plan-cards .premium .card {
+    min-height: 550px;
+    padding-bottom: 20px;
+}
+
+
+.plans .plan-cards .premium .best-value {
+    padding: 25px 0px 15px 0px;
+}
+.plans .touch {
+    padding-top: 40px;
+    height: 50px;
+    text-align: center;
+}
+
+.plans .touch .touch-link {
+    background-color: rgb(236, 238, 238, 0.2);
+    min-height: 80px;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 12px;
+    min-width: 250px;
+    border: 2px solid rgb(236, 238, 238, 0.2);
+}
+
+.plans .touch-link:hover {
+    text-decoration: none;
+}
+/* PRICE-PAGE */
+/* SECTION:1 (PLANS) */
+
+section.plans-white {
+    background-color: white;
+}
+.plans .plan-icons{
+    text-align:center;
+}
+.plans .price-icon {
+    text-align: center;
+    background-color: rgb(222, 235, 236);
+    border-radius: 50%;
+    padding: 20px;
+    color: #2a83bf;
+}
+
+.plans .icon-head {
+    font-weight: bold;
+    padding: 20px 0px 0px 0px;
+}
+
+.plans .plan-text {
+    
+    font-size: 12px;
+}
+/* SECTION:1.1 */
+section.plans-white {
+    background-color: white;
+}
+
+/* SECTION :2 (FAQ) */
+
+section.faq {
+    padding:30px 0px 15px 0px;
+     
+}
+
+.faq .faq-head {
+    font-weight: 500;
+    text-align: center;
+    font-size: 70px;
+    text-transform: uppercase;
+}
+
+.faq .faq-text {
+    text-align: center;
+    font-size: 20px;
+}
+
+.faq .faq-accord {
+    background-color: white;
+    border: 1px solid lightgray;
+    padding: 20px;
+    text-align: left;
+    border-radius: 5px;
+}
+
+.faq-body {
+    border: 1px solid lightgray;
+    border-top: none;
+    padding: 15px;
+}
+
+.faq .txt {
+    color: #2a83bf;
+    font-weight: 600;
+}
+
+.faq .accord {
+    font-weight: 600;
+    color: black;
+}
+
+.faq .symbol {
+    float: right;
+}
+
+/* SECTION:3 (CHAT-BOX) */
+
+section.chat-box {
+    background-color: #2a83bf;
+    padding:0px 0px 20px 0px;
+}
+
+.chat-box .chat-area {
+    background-color: rgb(236, 238, 238, 0.2);
+    border: 1px solid rgb(236, 238, 238, 0.2);
+    border-radius: 5px;
+    text-align: center;
+    
+}
+
+.chat-box .dig {
+    font-size: 35px;
+    color: white;
+    font-weight: 500;
+    text-align: center;
+}
+
+.chat-box .chat-txt {
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    padding: 20px 20px;
+}
+
+.chat-box .card-img-left {
+    position: absolute;
+    left: -1%;
+    margin-top: 28px;
+    height: 45px;
+}
+/* ACCOUNT-SETTINGS */
+/* SECTION:1(ACCOUNT) */
+
+.account .acc-icon {
+    text-align: center;
+    background-color: rgb(229, 245, 241);
+    border-radius: 50%;
+    padding: 20px;
+    color: #2a83bf;
+}
+
+.account .acc-text {
+    color: gray;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* SECTION:2(ACCOUNT-SETTINGS) */
+
+.account-settings .account-tab-content {
+    background-color: rgb(229, 245, 241);
+    padding:30px 0px 60px 0px;
+  
+}
+.account-settings .bg-profile{
+    background-color: rgb(229, 245, 241);
+    
+}
+.account-settings .preference-button {
+    width: 20%;
+}
+
+.account-settings .member img {
+    height: 60%;
+    width: 60%;
+    border-radius: 50%;
+}
+
+.account-settings .icons {
+    background-color: #2a83bf;
+    border-radius: 60%;
+    padding: 10px;
+    color: white;
+}
+
+.account-settings .account-text {
+    padding-top: 25px;
+}
+
+.account-settings .input-upload input[type="file"] {
+    display: none;
+}
+
+.account-settings .custom-file-upload {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    background-color: #2a83bf;
+    border-radius: 20px;
+    color: white;
+    font-weight: 500;
+}
+
+.account-settings .small-scr-btn {
+    width: 100%;
+}
+
+.account-settings .icon-head {
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.acount-settings .border-class {
+    border-right: 1px solid gray;
+}
+
+.account-settings .right-side {
+    border: 1px solid rgb(82,181,220);
+    background-color: rgb(82,181,220);
+    border-radius: 5px;
+    padding: 20px 20px;
+}
+
+.account-settings .right-side a {
+    color: black;
+}
+
+.account-settings .account-tab a {
+    color: slategray;
+    font-weight: 600;
+    border: none;
+}
+
+.account-settings .border-notification {
+    border-right: 1px solid lightgray;
+    padding-right: 20px;
+}
+
+.account-settings .nav-tabs {
+    border: none;
+}
+
+.account-settings .nav-tabs .nav-link.active {
+    color: #2a83bf;
+    border-bottom: 2px solid #2a83bf;
+}
+
+.account-settings .bill-text {
+    color: slategray;
+    font-size: 14px;
+}
+
+.account-settings .bill-cardno {
+    font-weight: bold;
+}
+
+.account-settings .notification-togs .custom-control-input:checked~.custom-control-label::before {
+    color: #fff;
+    border-color: #adb5bd;
+    background-color: #2a83bf;
+    box-shadow: none;
+}
+
+.account-settings .notification-togs .custom-control-label::before {
+    box-shadow: none;
+    border-color: #adb5bd;
+}
+
+.account-settings .custom-radio .custom-control-input:checked~.custom-control-label::after {
+    background-color: #2a83bf;
+    border-radius: 50%;
+}
+/* CONTACT-US */
+/* SECTION 0:OVERWRITING (SEC-1 CSS) */
+
+section.sec-center {
+    text-align: center;
+}
+/* SECTION 1:CONTACT */
+section.contact-us{
+    background-color:white;
+}
+.contact-us .contact-head {
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.contact-us .contact-text {
+    text-align: center;
+
+    font-size: 16px;
+    ;
+}
+
+.contact-us .small-scr-btn {
+    width:100%;
+    
+
+}
+
+.contact-us .contact-details {
+    text-align: center;
+    width: 100%;
+}
+
+.contact-us .Email-Us {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.contact-us .contact-mail {
+    color: #2a83bf;
+    font-weight: 600;
+}
+
+.contact-us .drop-in {
+    font-size: 14px;
+}
+
+.contact-us .contact-mail a {
+    color: #2a83bf;
+}
+
+
+/* About Us page */
+/* section 1: sec-1 */
+
+section.sec-1 .plans-head {
+    text-align: center;
+    color: white;
+	}
+
+	.sec-1 .plans-head .head-plan {
+    font-size: 80px;
+    font-weight: 700;
+    font-family: 'Baloo Tamma 2', cursive;
+	}
+
+	.sec-1 .plan-title {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+	}
+
+	/* .sec-1 .about-top {
+    padding-top: 100px;
+	} */
+
+	.sec-1 .about-top-left {
+	padding: 20px;
+	height: 100%;
+	display: table;
+	}
+	.sec-1 .about-top-left img{
+		width: 80%;
+	}
+
+	.sec-1 .about-top-right {
+    padding: 30px;
+	}
+
+	.sec-1 .about-top-right a {
+    color: white;
+	}
+
+	/* section 2: about-top	*/
+	section.about-carousel {
+		text-align: center;
+		padding-bottom: 50px;
+		padding-top: 50px;
+		background-color: #192d35;
+		padding-top: 170px;
+		margin-top: -138px;
+		color: white;
+		z-index: -1;
+		position: relative;
+	}
+
+	.about-carousel .carousel-img img {
+		width: 50%;
+		height: 50%;
+	}
+
+	.about-carousel h2 {
+		font-family: 'Baloo Tamma 2', cursive;
+	}
+
+	.about-carousel .carousel-text {
+		font-size: 15px;
+		padding: 10px;
+	}
+
+	/* section 3: team */
+	section.team {
+		margin-top: 50px;
+		margin-bottom: 50px;
+		text-align: center;
+	}
+
+	.team .team-head {
+		font-family: 'Baloo Tamma 2', cursive;
+	}
+
+	.team .team-text {
+		color: grey;
+		font-size: large;
+	}
+
+	.team .member {
+		padding-top: 2em;
+	}
+	.team .member i:hover{
+		box-shadow: #eaeaea 1px 1px 11px 5px;
+	}
+
+	.team .member img {
+		width: 70%;
+		border-radius: 50%;
+	}
+	.team .member img:hover{
+		box-shadow: #eaeaea 1px 1px 11px 5px;
+		transition: ease-in 0.3s;
+	}
+
+	.team .member .member-text {
+		padding-top: 1em;
+		line-height: 2em;
+	}
+
+	.team .member .member-icons{
+		margin-top: -20px;
+	}
+	.team .member .member-icons a{
+		margin-right: 5px;
+		color: black;
+	}
+	.team .member .member-icons a:hover{
+		color: #2a83bf;
+	}
+
+	/* section 4: about-clients */
+	section.about-clients {
+		margin-top: 50px;
+		padding: 50px;
+		text-align: center;
+		background-color: whitesmoke;
+	}
+
+	.about-clients .client-blocks img {
+		width: 100%;
+		height: 80%;
+	}
+
+	.about-clients h2 {
+		font-family: 'Baloo Tamma 2', cursive;
+	}
+
+	.about-clients p {
+		font-size: 15px;
+	}
+
+	/* section 5: about-bottom */
+	section.about-bottom {
+		background-color: #2a83bf;
+		text-align: center;
+		color: white;
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+
+	.about-bottom h1 {
+		font-family: 'Baloo Tamma 2', cursive;
+	}
+
+	.about-bottom p {
+		font-size: 15px;
+	}
+	.about-bottom .cstmr-logos img{
+		width: 70%;
+	}
+
+
+ /* Login page */
+
+ .login-block{
+    background-color:#f7f9fc;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    /* margin-top: -20px;
+    z-index: -0.5;
+    position: relative; */
+}
+.login-form{
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: #eaeaea 1px 1px 11px 5px;
+
+}
+.login-form h3{
+    text-align: center;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+.sign-up-link{
+    text-align: center;
+}
+.sign-up-link a{
+    color: #28a745;
+}
+.frgt-pwd a{
+    float: right;
+    color: #28a745;
+}
+.login-form .form-group{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/* Sign up page */
+
+.signup{
+    background-color: #f7f9fc;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.signup-frm{
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: #eaeaea 1px 1px 11px 5px;
+}
+.signup-frm h4{
+    text-align: center;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+.signup-frm p{
+    font-size: 13px;
+}
+.signup a{
+    color: #28a745;
+}
+.signup .signin-link{
+    text-align: center;
+    font-size: 13px;
+}
+.signup-reviews{
+    margin-left: 20px;
+}
+.signup-reviews .rev{
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 15px;
+    box-shadow: #eaeaea 1px 1px 11px 5px;
+    width: 100%;
+    text-align: center;
+}
+.signup-reviews .rev img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px%;
+}
+.signup .plan-details h1{
+    font-family: 'Baloo Tamma 2', cursive;
+}
+.plan-details{
+    margin-left: 20px;
+}
+.plan-details i{
+    color: #28a745;
+    background-color: #def0ee;
+    border-radius: 50%;
+    padding: 8px;
+}
+
+/* Projects page */
+/* Section 1: project-head-block */
+section.projects-head{
+    background-color: #f7f9fc;
+    padding-bottom: 30px;
+}
+.projects-head .projects-head-block{
+    background-color: white;
+    margin-top: 50px;
+    margin-left: 20x;
+    margin-right: 20px;
+}
+.projects-head .project-heading{
+    margin: 30px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.project-head .project-image{
+    height: 100%;
+    display: block;
+}
+.projects-head .project-image img{
+    width: 100%;
+    height: 100%;
+    border-bottom-left-radius: 50% 50%;
+    border-top-left-radius: 50% 50%;
+    float: right;
+
+}
+.projects-head .project-image img:hover{
+    box-shadow: 2px 3px 10px 8px #dadada;
+    transition: ease-in 0.3s;
+}
+.projects-head .rev-img{
+    width: 100%;
+}
+.projects-head .rev-logo{
+    width: 40%;
+}
+
+/* section 2: all-projects */
+section.all-projects{
+    margin-top: 150px;
+} 
+.all-projects .project{
+    margin-bottom: 50px;
+}
+.all-projects .project:hover{
+    box-shadow: 4px 3px 6px 2px #cccc;
+    margin-top: -5px;
+    transition: ease-in 0.3s;
+}
+
+/* section 3: project-bottom */
+section.project-bottom{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: white;
+    height: 200px;
+}
+.project-bottom .client-join{
+    margin: 20px;
+}
+.project-bottom .client-join h2{
+    font-family: 'Baloo Tamma 2', cursive;
+}
+
+
+/* MEDIA QUERIES */
+
+@media (max-width:425px) {
+    .seperator-price {
+        padding: 0px;
+    } 
+     .chat-box .chat-align {
+        padding: 20px 0px 0px 0px;
+    }
+    .chat-box .card-img-left {
+        left: 40%;
+        margin-top: -30px;
+    }
+    .account-settings .account-tab a {
+        font-size: 14px;
+    }
+    .plans .touch {
+        padding-bottom: 80px;
+    }
+    .blank {
+        display: none;
+    }
+    .footer .ftr-links {
+        text-align: center;
+    }
+    .footer {
+        padding: 50px 0px 0px 0px;
+        color: white;
+        z-index: 0;
+        margin-top: 0px;
+    }
+    
+    .pl-curve {
+        border-bottom-left-radius: 0% 0%;
+        border-bottom-right-radius: 0% 0%;
+    }
+    .plans {
+        margin-top: 0px;
+    }
+    
+    
+}
+
+@media (min-width:426px) and (max-width:769px) {
+    .chat-box .card-img-left {
+        left: -1%;
+        margin-top: 34px;
+    }
+    .seperator-price {
+        padding: 0px;
+    }
+    
+}
+/* COMMON MEDIA QUERY */
+@media (max-width: 767px) {
+    .my-bg {
+        border-bottom-left-radius: 0% 0% !important;
+        border-bottom-right-radius: 0% 0% !important;
+    }
+    .for-overlapping{
+        padding: 20px 0px 140px 0px;
+    }
+    .for-center{
+        text-align:center;
+        padding:10px 0px 0px 0px;
+    }
+    .my-bg {
+        border-bottom-left-radius: 0% 0% !important;
+        border-bottom-right-radius: 0% 0% !important;
+    }
+    .my-bg-mobile {
+        background-image: url('../assets/img/index/sec-1-bg.jpg');
+        border-bottom-left-radius: 150% 50%;
+        border-bottom-right-radius: 150% 50%;
+    }
+    .projects-head .project-image img{
+        border-bottom-left-radius: 0% 0%;
+        border-top-left-radius: 0% 0%;
+        width: 100%;
+        height: 100%;
+        justify-content: middle;
+    }
+    
+}
+
+@media (max-width: 991px) {
+    .navbar.navbar-expand-lg.navbar-dark.fixed-top.bg-transparent.mobile-nav {
+        background-color: #25353f !important;
+    }
+    .sec-2 .sec-2-2{
+        text-align: center;
+    }
+}
+
+@media (max-width: 1199px) {
+    .sec-3-1 {
+        padding-top: 0px;
+    }
+}
+
+
+
+/* Footer css Below */
+.footer {
+    position: relative;
+    background-color: #25353f;
+    padding: 10px 0px 0px 0px;
+    color: white;
+    /* z-index: -1; */
+    margin-top: -138px;
+}
+
+.footer .ftr-links {
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+.footer .list-ftr {
+    color: white;
+    font-size: 12px;
+    text-transform: capitalize;
+}
+
+.footer .ftr-links li a:hover {
+    border-left: 4px solid #2a83bf;
+    padding-left: 5px;
+    transition: 0.5s ease;
+    text-decoration: none;
+}
+
+.footer .ftr-icons {
+    padding-top: 10px;
+}
+
+.footer .fb {
+    color: white;
+    padding-right: 7px;
+}
+
+.footer .sm:hover {
+    color: #2a83bf;
+}
+
+.footer .design {
+    color: white;
+    font-size: 12px;
+}
+
+.footer .email {
+    color: slategray;
+    font-size: 12px;
+}
+
+.footer .generic {
+    background-color: slategray;
+}
+.footer .mybtn-4 {
+    width: 100%;
+    font-size: 12px;
+    border-radius: 26px;
+    text-align: center;
+    height: 21px;
+    padding: 8px 25px 25px 20px;
+}
+
+.footer .copyright {
+    color: slategray;
+    font-size: 14px;
+}
+
+
+/* Please Don't write anycode below this line */
